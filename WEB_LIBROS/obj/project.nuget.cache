@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PchhXeCMQmvX9f019m+kDlYsWsJHnXkIJVhDtsNEurM+EQmtHkbWxt2qkryPwLX/Kz3Y8E1ID5nr9mTu2kuL0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Desktop\\ProgramIII\\WEB_LIBROS\\WEB_LIBROS\\WEB_LIBROS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

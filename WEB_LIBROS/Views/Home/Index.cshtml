@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>BUSCADOR DE LIBROS</h1>
+
+
+<body>
+    <form>
+        <label>
+            <input type="radio" name="opcion" value="autor">
+            Autor
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="opcion" value="libro">
+            Libro
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="opcion" value="descripcion">
+            Descripción
+        </label>
+        <br>
+
+        <label for="campoTexto">Buscador</label>
+        <input type="text"><br>
+
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <!-- Agregar más columnas según las propiedades de la clase LIBROS -->
+            </tr>
+
+
+            @foreach (var libro in ViewBag.Libros)
+            {
+                <tr>
+                    <td>@libro.VolumeInfo.Title</td>
+
+                    @foreach(var autor in libro.VolumeInfo.Authors){
+                    <td>@autor</td>
+                    }
+
+                    <!-- Mostrar más propiedades del libro según las propiedades de la clase LIBROS -->
+                </tr>
+            }
+
+        </table>
+
+
+
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+

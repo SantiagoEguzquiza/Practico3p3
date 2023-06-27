@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "API_LIBROS/1.0.0": {
+        "runtime": {
+          "API_LIBROS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API_LIBROS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
