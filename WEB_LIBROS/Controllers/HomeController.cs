@@ -18,13 +18,7 @@ namespace WEB_LIBROS.Controllers
         public IActionResult Index()
         {
             
-            //API apiBooks = new API();
-
-
-            //string resultado = apiBooks.getLibros("dormir+inauthor:Mario+intitle:cama", "AIzaSyAvKWpjkXwzkOCvPCqFMjQMRJkEhY3KKZI");
-
-            //var listaLibros = JsonConvert.DeserializeObject<LIBROS>(resultado);
-            //ViewBag.Libros = listaLibros.Items;
+            
             return View();
         }
         [HttpPost]

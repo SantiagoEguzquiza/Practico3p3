@@ -3,10 +3,9 @@
 }
 
 <head>
-
+    
 </head>
 
-<h1>BUSCADOR DE LIBROS</h1>
 
 
 <body>
@@ -45,9 +44,10 @@
                 @foreach (var autor in libro.VolumeInfo.Authors)
                 {
                     <td>@autor</td>
+                    break;
                 }
 
-                
+                <td>@libro.VolumeInfo.Description</td>
             </tr>
         }
        
