@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PchhXeCMQmvX9f019m+kDlYsWsJHnXkIJVhDtsNEurM+EQmtHkbWxt2qkryPwLX/Kz3Y8E1ID5nr9mTu2kuL0g==",
+  "dgSpecHash": "bgmOfwfN9EAP2qF4cyoiKZdOuaL+Q+qEx2qHa1BGmhoRcSPLtF6YANrF9GAQgd/PxLyaxJ1ehK7lMwtcFpomWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\OneDrive\\Desktop\\ProgramIII\\WEB_LIBROS\\WEB_LIBROS\\WEB_LIBROS.csproj",
+  "projectFilePath": "C:\\Users\\santi\\Desktop\\Carrera\\Practico3p3\\WEB_LIBROS\\WEB_LIBROS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

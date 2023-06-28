@@ -10,3 +10,15 @@ C:\Users\santi\OneDrive\Desktop\ProgramIII\WEB_LIBROS\API_LIBROS\obj\Debug\net6.
 C:\Users\santi\OneDrive\Desktop\ProgramIII\WEB_LIBROS\API_LIBROS\obj\Debug\net6.0\refint\API_LIBROS.dll
 C:\Users\santi\OneDrive\Desktop\ProgramIII\WEB_LIBROS\API_LIBROS\obj\Debug\net6.0\API_LIBROS.pdb
 C:\Users\santi\OneDrive\Desktop\ProgramIII\WEB_LIBROS\API_LIBROS\obj\Debug\net6.0\ref\API_LIBROS.dll
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\bin\Debug\net6.0\API_LIBROS.deps.json
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\bin\Debug\net6.0\API_LIBROS.dll
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\bin\Debug\net6.0\API_LIBROS.pdb
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.csproj.AssemblyReference.cache
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.AssemblyInfoInputs.cache
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.AssemblyInfo.cs
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.dll
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\refint\API_LIBROS.dll
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\API_LIBROS.pdb
+C:\Users\santi\Desktop\Carrera\Practico3p3\API_LIBROS\obj\Debug\net6.0\ref\API_LIBROS.dll
