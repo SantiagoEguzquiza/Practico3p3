@@ -367,4 +367,7 @@
       <Link>wwwroot\js\bootstrap.min.js.map</Link>
     </Content>
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\santi\.nuget\packages\jquery\3.7.0</PkgjQuery>
+  </PropertyGroup>
 </Project>

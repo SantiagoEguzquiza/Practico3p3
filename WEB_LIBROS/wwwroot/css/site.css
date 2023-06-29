@@ -31,6 +31,11 @@ body {
     background-color: #632432;
     font-family: Arial;
 }
+body > div {
+        box-shadow: 10px 10px 8px #888888;
+        border: 2px solid black;
+        border-radius: 10px;
+}
 
 #main-container {
     margin: 150px auto;
@@ -49,7 +54,8 @@ th {
 }
 
 th, td {
-    padding: 20px;
+    
+    padding: 0.4rem !important;
 }
 
 thead {
@@ -66,3 +72,4 @@ tr:hover td {
     background-color: #369681;
     color: white;
 }
+

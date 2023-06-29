@@ -16,43 +16,53 @@ namespace WEB_LIBROS.Controllers
         }
 
         public IActionResult Index()
-        {
-            
-            
+        {    
             return View();
         }
         [HttpPost]
-        public IActionResult Index(string autor, string titulo, string descripcion)
+        public IActionResult Index(string autor, string titulo, string descripcion, string pagina)
         {
+            string auxAutor = "";
+            string auxTitulo = "";
+            string auxDescripcion = "";
+
             if (autor != null)
             {
-                autor = autor.ToLower();
-                autor = "+inauthor:" + autor;
-            }else if (autor == null) { autor = ""; }
+                auxAutor = autor.ToLower();
+                auxAutor = "+inauthor:" + auxAutor;
+            }
+            else if (autor == null) { auxAutor = ""; }
 
             if (titulo != null)
             {
-                titulo = titulo.ToLower();
-                titulo = "+intitle:" + titulo;
-            }else if (titulo == null) { titulo = ""; }
+                auxTitulo = titulo.ToLower();
+                auxTitulo = "+intitle:" + auxTitulo;
+            }
+            else if (titulo == null) { auxTitulo = ""; }
 
             if (descripcion != null)
             {
-                descripcion = descripcion.ToLower();
+                auxDescripcion = descripcion.ToLower();
             }
-            else if (descripcion == null) { descripcion = ""; }
+            else if (descripcion == null) { auxDescripcion = ""; }
 
-            string q = descripcion + autor + titulo;
+            string q = auxDescripcion + auxAutor + auxTitulo;
 
             API apiBooks = new API();
 
 
-            string resultado = apiBooks.getLibros(q , "AIzaSyAvKWpjkXwzkOCvPCqFMjQMRJkEhY3KKZI");
+            string resultado = apiBooks.getLibros(q, "AIzaSyAvKWpjkXwzkOCvPCqFMjQMRJkEhY3KKZI", pagina);
 
             var listaLibros = JsonConvert.DeserializeObject<LIBROS>(resultado);
             ViewBag.Libros = listaLibros.Items;
+
+            ViewBag.Autor = autor;
+            ViewBag.Titulo = titulo;
+            ViewBag.Desc = descripcion;
+
             return View();
         }
+
 
         public IActionResult Privacy()
         {
