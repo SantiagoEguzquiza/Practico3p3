@@ -2,10 +2,10 @@
 {
     public class API
     {
-        public string getLibros(string texto, string key)
+        public string getLibros(string texto, string key, string pagina)
         {
             UriBuilder builder = new UriBuilder("https://www.googleapis.com/books/v1/volumes");
-            builder.Query = $"?key{key}&q={texto}";
+            builder.Query = $"?key{key}&startIndex={pagina}&q={texto}";
 
             //Create a query 
             HttpClient client = new HttpClient();
@@ -16,6 +16,6 @@
                 return sr.ReadToEnd();
             }
         }
+       
     }
 }
-//ok
