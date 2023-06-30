@@ -54,7 +54,11 @@ namespace WEB_LIBROS.Controllers
             string resultado = apiBooks.getLibros(q, "AIzaSyAvKWpjkXwzkOCvPCqFMjQMRJkEhY3KKZI", pagina);
 
             var listaLibros = JsonConvert.DeserializeObject<LIBROS>(resultado);
-            ViewBag.Libros = listaLibros.Items;
+
+            if (listaLibros is not null)
+            {
+                ViewBag.Libros = listaLibros.Items;
+            }
 
             ViewBag.Autor = autor;
             ViewBag.Titulo = titulo;
